@@ -1,0 +1,16 @@
+# Build artifacts
+pl0
+*.o
+
+# Temporary files
+*.tmp
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

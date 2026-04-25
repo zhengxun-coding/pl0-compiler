@@ -1,0 +1,7 @@
+const n=5;
+var a(1:10), b(5:15), x;
+begin
+  a(5) := 100;
+  x := a(5);
+  write(x)
+end.

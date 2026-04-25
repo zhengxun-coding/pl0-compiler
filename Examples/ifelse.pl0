@@ -1,0 +1,5 @@
+var x;
+begin
+    x:=15;
+    if x > 10 then write(1) else write(0)
+end.
