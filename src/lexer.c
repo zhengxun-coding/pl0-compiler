@@ -146,8 +146,12 @@ int getsym()
             {
                 i = k + 1;
             }
+            else
+            {
+                break;
+            }
         } while (i <= j);
-        if (i - 1 > j)
+        if (strcmp(id, word[k]) == 0)
         {
             sym = wsym[k];
         }
